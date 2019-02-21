@@ -118,7 +118,7 @@ var act2 = document.getElementById("act2").value;
 
 
 
-storyDiv.innerHTML = person + " ate a whole bowl of " + food + " before he went " + act + " all the way to " + place + " an bought a " + color + " " + thing + " then went " + act2 + " all the way back home. ";
+storyDiv.innerHTML = person + " ate a whole bowl of " + food + " before they went " + act + " all the way to " + place + " an bought a " + color + " " + thing + " then went " + act2 + " all the way back home. ";
             };
 libButton.addEventListener('click', libIt);
 
