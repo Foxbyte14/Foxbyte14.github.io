@@ -13,7 +13,7 @@ Aenean lorem neque, porttitor blandit congue vitae, faucibus at eros. Praesent m
 
 <style>
         
-body{
+#madlibsbox{
 overflow: hidden;
             }
             
@@ -72,7 +72,7 @@ height: 50px;
 }
             
 </style>
-
+<div id = "madlibsbox">
 <body>
 <h1 id = "madlibshead">Mad Libs</h1>
 
@@ -93,7 +93,7 @@ height: 50px;
 <span id="story"></span>
 </p>
 </body>
-
+</div>
 <script>
 
 var libButton = document.getElementById('lib-button');
