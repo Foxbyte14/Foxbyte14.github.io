@@ -13,7 +13,8 @@ Aenean lorem neque, porttitor blandit congue vitae, faucibus at eros. Praesent m
 
 ### Markdown styling
 
-```markdown Syntax highlighted code block
+```markdown 
+Syntax highlighted code block
 
 # Header 1
 ## Header 2
