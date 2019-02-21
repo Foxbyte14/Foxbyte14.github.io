@@ -18,7 +18,7 @@ overflow: hidden;
             }
             
             
-h1 {
+#madlibshead {
 text-align: center;
 background-color: #44b891;
 color: #fff;
@@ -60,7 +60,7 @@ padding:20px;
 width:80%;
 }
             
-p{
+#storybox{
 background-color:rgb(232, 232, 232);
 color:rgb(84, 84, 84);
 padding: 20px;
@@ -74,7 +74,7 @@ height: 50px;
 </style>
 
 <body>
-<h1>Mad Libs</h1>
+<h1 id = "madlibshead">Mad Libs</h1>
 
 <ol>
 <li class="inputs">Persons Name: <input type="text" id="person"></li>
@@ -89,7 +89,7 @@ height: 50px;
 
 <button id="lib-button">Generate Story</button>
 
-<p><b>Story:</b><br>
+<p id = "storybox"><b>Story:</b><br>
 <span id="story"></span>
 </p>
 </body>
