@@ -11,6 +11,7 @@ Aenean lorem neque, porttitor blandit congue vitae, faucibus at eros. Praesent m
 
 ## Mad Libs Game
 
+Here is a game I made using JavaScript.
 <style>
         
 #madlibsbox{
@@ -125,7 +126,36 @@ libButton.addEventListener('click', libIt);
 
 </script>
 
+### Mad Libs JS code
+here is the _JavaScript_ code for the game
 
+```markdown 
+`
+var libButton = document.getElementById('lib-button');
+var libIt = function () {
+var storyDiv = document.getElementById("story");
+
+var person = document.getElementById("person").value;
+
+var food = document.getElementById("food").value;
+
+var act = document.getElementById("act").value;
+
+var place = document.getElementById("place").value;
+
+var color = document.getElementById("color").value;
+
+var thing = document.getElementById("thing").value;
+
+var act2 = document.getElementById("act2").value;
+
+
+
+
+storyDiv.innerHTML = person + " ate a whole bowl of " + food + " befor he " + act + " all the way to " + place + " an bought a " + color + thing + " then " + act2 + " all the way back home. ";
+            };
+`
+```
 ### Markdown styling
 
 ```markdown 
