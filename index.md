@@ -9,6 +9,121 @@
 
 Aenean lorem neque, porttitor blandit congue vitae, faucibus at eros. Praesent maximus vel leo ut congue. Quisque quis eros commodo, ultricies sapien sit amet, auctor tellus. Praesent faucibus ligula mi, porttitor blandit enim pellentesque quis. Curabitur feugiat non nisi sed dignissim. Mauris ac viverra odio, a auctor erat. Nam ac lorem vel augue condimentum aliquam ut sed mauris. Vestibulum nec nibh ut ligula ultricies semper sed at tortor. Nullam hendrerit sem et dolor convallis porttitor. Proin viverra iaculis tortor, at porttitor lorem hendrerit a. Cras sed risus ut augue hendrerit gravida. Morbi nulla risus, vestibulum eget ligula eu, fringilla fringilla nulla. Pellentesque vitae velit varius, dictum orci vel, finibus elit. Vivamus magna elit, ultrices sed justo eget, condimentum commodo nisl. Sed interdum magna nec quam faucibus condimentum. 
 
+## Mad Libs Game
+
+<style>
+        
+body{
+overflow: hidden;
+            }
+            
+            
+h1 {
+text-align: center;
+background-color: #44b891;
+color: #fff;
+text-shadow: 2px 3px 5px rgb(0, 0, 0, 0.15);
+border-radius: 5px;
+padding: 7px;
+}
+
+input {
+border-radius: 2px;
+border: solid;
+border-width: 1px;
+border-color: rgb(201, 201, 201);
+}
+
+.inputs {
+font-weight: bold;
+padding: 8px;
+color: rgb(87, 87, 87);
+}
+
+#lib-button {
+border: none;
+padding: 9px;
+background-color: #44b891;
+color: #fff;
+font-size: 15px;
+border-radius: 5px;
+transition: 0.2s;
+}
+
+#lib-button:hover {
+cursor: pointer;
+box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+#story{
+padding:20px;
+width:80%;
+}
+            
+p{
+background-color:rgb(232, 232, 232);
+color:rgb(84, 84, 84);
+padding: 20px;
+border-radius: 5px;
+text-align:left;
+margin-top:10px;
+overflow-y: scroll;
+height: 50px;
+}
+            
+</style>
+
+<body>
+<h1>Mad Libs</h1>
+
+<ol>
+<li class="inputs">Persons Name: <input type="text" id="person"></li>
+<li class="inputs">Food: <input type="text" id="food"></li>
+<li class="inputs">Action: <input type="text" id="act"></li>
+<li class="inputs">Place: <input type="text" id="place"></li>
+<li class="inputs">Color: <input type="text" id="color"></li>
+<li class="inputs">Thing: <input type="text" id="thing"></li>
+<li class="inputs">Action <input type="text" id="act2"></li>
+
+</ol>
+
+<button id="lib-button">Generate Story</button>
+
+<p><b>Story:</b><br>
+<span id="story"></span>
+</p>
+</body>
+
+<script>
+
+var libButton = document.getElementById('lib-button');
+var libIt = function () {
+var storyDiv = document.getElementById("story");
+
+var person = document.getElementById("person").value;
+
+ var food = document.getElementById("food").value;
+
+var act = document.getElementById("act").value;
+
+var place = document.getElementById("place").value;
+
+var color = document.getElementById("color").value;
+
+var thing = document.getElementById("thing").value;
+
+var act2 = document.getElementById("act2").value;
+
+
+
+
+storyDiv.innerHTML = person + " ate a whole bowl of " + food + " befor he " + act + " all the way to " + place + " an bought a " + color + thing + " then " + act2 + " all the way back home. ";
+            };
+libButton.addEventListener('click', libIt);
+
+
+
+</script>
 
 
 ### Markdown styling
