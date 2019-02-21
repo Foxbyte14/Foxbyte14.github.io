@@ -13,8 +13,6 @@ Aenean lorem neque, porttitor blandit congue vitae, faucibus at eros. Praesent m
 
 Here is a game I made using JavaScript.
 <style>
- 
- h1{text-shadow:2px 4px 5px rgb(0,0,0,0.5;}
         
 #madlibsbox{
 overflow: hidden;
