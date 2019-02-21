@@ -13,9 +13,7 @@ Aenean lorem neque, porttitor blandit congue vitae, faucibus at eros. Praesent m
 
 ### Markdown styling
 
-```markdown
-
-Syntax highlighted code block
+```markdown Syntax highlighted code block
 
 # Header 1
 ## Header 2
@@ -30,7 +28,6 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
