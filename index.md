@@ -130,7 +130,7 @@ libButton.addEventListener('click', libIt);
 
 ##Scrible Paint App
 A paint app I made on KhanAcademy using p5.js
-<script src="https://www.khanacademy.org/computer-programming/scribble/6160303581200384/embed.js?editor=no&buttons=yes&author=yes&embed=yes"></script>
+<script src="https://www.khanacademy.org/computer-programming/scribble/6160303581200384/embed.js?width=600&height=600&editor=no&buttons=yes&author=yes&embed=yes"></script>
 
 ### Markdown styling
 
