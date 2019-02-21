@@ -69,7 +69,7 @@ border-radius: 5px;
 text-align:left;
 margin-top:10px;
 overflow-y: scroll;
-height: 50px;
+height: 90px;
 }
             
 </style>
