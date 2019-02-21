@@ -125,7 +125,9 @@ libButton.addEventListener('click', libIt);
 
 
 </script>
-
+<br>
+[Vote it UP](https://www.khanacademy.org/computer-programming/mad-libs/5821356050382848)
+<br>
 ### Markdown styling
 
 ```markdown 
