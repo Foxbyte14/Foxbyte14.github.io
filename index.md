@@ -36,9 +36,9 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Find me on:
 <br>
-KhanAcademy: [@Foxbyte14](https://www.khanacademy.org/profile/Foxbyte14/)
+KhanAcademy:[@Foxbyte14](https://www.khanacademy.org/profile/Foxbyte14/)
 <br>
-OpenProcessing: [@intelligence](https://www.openprocessing.org/user/164755)
+OpenProcessing:[@intelligence](https://www.openprocessing.org/user/164755)
 <br>
-GitHub: [@Foxbyte14](https://github.com/Foxbyte14)
+GitHub:[@Foxbyte14](https://github.com/Foxbyte14)
 <br>
