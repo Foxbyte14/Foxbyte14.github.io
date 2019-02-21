@@ -14,6 +14,7 @@ Aenean lorem neque, porttitor blandit congue vitae, faucibus at eros. Praesent m
 ### Markdown styling
 
 ```markdown
+
 Syntax highlighted code block
 
 # Header 1
@@ -29,9 +30,11 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
 
 ### Find me on:
 
@@ -41,4 +44,5 @@ _OpenProcessing_:[@intelligence](https://www.openprocessing.org/user/164755)
 <br><br>
 _GitHub_:[@intelligence4](https://github.com/Intelligence4)
 <br><br><br>
+
 **Fork me on GitHub**: [https://github.com/Intelligence4/Intelligence4.github.io](https://github.com/Intelligence4/Intelligence4.github.io)
